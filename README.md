@@ -1,1 +1,1 @@
-# rp2040-QuadEncoder – DC motor quadrature encoder Library for rp2040
+# rp2040-QuadEncoder – (DC motor) quadrature encoder Library for rp2040
