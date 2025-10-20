@@ -1,0 +1,27 @@
+# Arduino build folders
+build/
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+
+# Arduino IDE backup files
+*.orig
+*.bak
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode / PlatformIO
+.vscode/
+.pio/
+
+# Temporary files
+*.tmp
+*.log
+
+# .legacy 폴더 전체를 무시
+.legacy/
+arduino-lint.exe

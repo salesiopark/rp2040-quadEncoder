@@ -1,0 +1,21 @@
+#######################################
+# Syntax Coloring Map For MyLibrary
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+QuadEncoder	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+get_radian  	        KEYWORD2
+get_radian_normalized	KEYWORD2
+get_speed_radian        KEYWORD2
+reset                   KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
