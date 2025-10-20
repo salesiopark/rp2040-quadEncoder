@@ -71,12 +71,20 @@ public:
     _prvSpeed = 0.0;
   }
   
-//CPR: Count (Edges of A/B) Per Revolution
-//AB상의 모든 edge를 카운트하여 해상도를 4배 높인다
-//(PioEncoder 클래스의 x4모드)
-//get_rad()와 get_speed()메서드에서 사용되는 변수들을 분라하여
-//독립적으로 동작하게금 작성
+  
+  long long get_count() {
+    _updateCountLL();
+    return _countLL;
+  }
+
+
 private:
+  //CPR: Count (Edges of A/B) Per Revolution
+  //AB상의 모든 edge를 카운트하여 해상도를 4배 높인다
+  //(PioEncoder 클래스의 x4모드)
+  //get_rad()와 get_speed()메서드에서 사용되는 변수들을 분라하여
+  //독립적으로 동작하게금 작성
+
   //공통으로 사용되는 멤버들
   PioEncoder    _pioEnc;
   const int     _CPR; // 
